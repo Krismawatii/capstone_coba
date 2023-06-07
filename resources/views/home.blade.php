@@ -9,13 +9,12 @@
 
     <title>DarahKu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
-
+    <link rel="stylesheet" href="capstone_coba\resources\css\app.css">
 </head>
 
 <body id="home">
     <script src=<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>></script>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow fixed-top">
 
         <div class="container">
 
@@ -39,31 +38,25 @@
 
                     <li class="nav-item">
 
-                        <a class="nav-link" href="#about">Artikel</a>
+                        <a class="nav-link" href="#artikel">Artikel</a>
 
                     </li>
 
                     <li class="nav-item">
 
-                        <a class="nav-link" href="#design">Cek DarahMu</a>
+                        <a class="nav-link" href="#cekdarah">Cek DarahMu</a>
 
                     </li>
 
                     <li class="nav-item">
 
-                        <a class="nav-link" href="#testimoni">Our Team</a>
+                        <a class="nav-link" href="#team">Our Team</a>
 
                     </li>
                 </ul>
-
             </div>
-
         </div>
-
     </nav>
-
-    <!-- Jumbotron -->
-
 
     <section class="jumbotron">
 
@@ -73,39 +66,151 @@
 
                 <div class="col-mb-3">
 
-                    <img src="image/logo.png" alt="Darahku" width="350" />
+                    <img src="image/logo.png" alt="image1" width="300px" height="310px" align="right" />
 
-                    <h1 class="display-6 fw-bold"></br>Mengapa DarahKu Hadir ?</h1>
-
-                    <p class="lead">Mencegah lebih baik dari pada mengobati. cegah Diabetes, Asam Urat, dan Kolestrol
-                        dengan DarahKu</p>
-                    <p class="desc">
-                    <p>Penyakit Diabetes, Kolestrol, serta Asam Urat ialah penyakit yang rentan bagi tubuh kita. Dengan
-                        Begitu hadirlah DarahKu sebagai platform untuk kita semua guna untuk pengecekan apakah di tubuh kita
-                        terdapat penyakit Diabetes, Kolestrol, serta Asam Urat. Serta kami memberikan solusi untuk mencegah
-                        penyakit tersebut dengan Tips dan Cara pengobatan nya</p>
-                    </p>
+                    <h1 class="display-4 fw-bold" align="left"></br>Mencegah lebih baik daripada mengobati.</h1>
+                    <h4 class="sub" align="left">Cegah Diabates, Kolesterol dan Asam Urat dengan Darahku</h4>
+                    <p class="lead" align="justify"> Kini Darahku hadir sebagai aplikasi yang akan membantu anda
+                        untuk mendiagnosis darah anda agar mengetahui penyakit seperti Diabates,
+                        kolestrol serta Asam Urat.</p>
 
                 </div>
 
-
             </div>
 
         </div>
 
-        </div>
-
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#BAFFC0" fill-opacity="1" d="M0,256L48,250.7C96,245,192,235,288,224C384,213,480,203,576,208C672,213,768,235,864,213.3C960,192,1056,128,1152,106.7C1248,85,1344,107,1392,117.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-        </svg>
-
-        <div id="copyright">
-            <div class="wrapper">
-                &copy; 2023. <b>DarahKu</b> Dicoding Academy.
-            </div>
         </div>
 
     </section>
+
+    <section id="sub" class="mb-5">
+        <!-- <div class="position-absolute"> -->
+        <div class="container-md mt-3">
+            <img src="image/image_2.png" alt="image2" width="490px" height="301px" align="left">
+            <h1 class="display-4 fw-bold" align="left">Mengapa Darahku Hadir?</h1>
+            <p class="lead" align="justify">Penyakit Diabetes, Kolestrol serta Asam Urat ialah penyakit yang rentan bagi tubuh kita. Dengan begitu hadir lah Darahku sebagai platform untuk kita semua guna untuk membantu dalam pengecekan
+                apakah tubuh kita terdapat resiko terkena penyakit Diabetes, Kolestrol serta Asam Urat atau tidak. tidak hanya itu,
+                pada platform kami juga memberikan solusi untuk mengurangi resiko terkena penyakit tersebut dengan tips dan cara pengobatan nya.
+                pengguna juga bisa menemukan informasi - informasi pada fitur yang sudah ada didalam DarahKu terkait dengan penyakit Diabetes, Kolesterol dan Asam Urat</p>
+        </div>
+        <!-- </div> -->
+    </section>
+
+
+    <section id="layanan">
+
+        <div class="container" style="background-color: #787272;">
+            <h3 class="display-6 fw-bold" align="center">LAYANAN KAMI</h3>
+
+            <img src="image/image_3.png" alt="image3" align="right" width="519px" height="386px">
+            <div class="row">
+                <div class="col" align="center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="image/artikel.png" class="card-img-top" alt="artikel" width="100px">
+                        <div class="card-body-mb-2">
+                            <h5 class="card-tittle">Artikel Kesehatan</h5>
+                            <p class="card-text">Artikel kesehatan yang kami tawarkan akan membantu anda untuk
+                                mendapatkan informasi seputar Diabetes, Kolestrol serta Asam Urat</p>
+                            <a href="#" class="btn btn-warning btn-sx">Baca Artikel</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col" align="center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="image/cek_darah.png" class="card-img-top" alt="cek">
+
+                        <div class="card-body-mb-2">
+                            <h5 class="card-tittle">Cek Darahmu</h5>
+                            <p class="card-text">Cek Darahmu yuk, biar kamu mengetahui bagaimana tingkat kemungkinan
+                                anda terserang penyakit Diabetes, Kolestrol serta Asam Urat.</p>
+                            <a href="#" class="btn btn-warning btn-sx">Cek DarahMu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-danger text-light">
+        <!-- Section: Links  -->
+        <section class="d-flex justify-content-center justify-content-lg-between border-bottom">
+            <div class=" container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>DarahKu
+                        </h6>
+                        <p>
+                            Cegah Diabates, Kolesterol dan Asam Urat dengan Darahku
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h4 class="text-uppercase fw-bold mb-4">
+                            Layanan Kami
+                        </h4>
+                        <p>
+                            <a href="#!" class="text-reset">Home</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Artikel</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Cek Darahmu</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Our Team</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h5 class="text-uppercase fw-bold mb-4">
+                            Hubungi Kami
+                        </h5>
+                        <p>
+                            <a href="#!" class="text-reset">Ailza</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Firda</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Krismawati</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Rizky</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color:#787272;">
+            © 2023 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">DarahKu Dicoding Academy</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 </body>
 
 </html>
