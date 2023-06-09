@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\RegisterController;
+use app\Http\Controllers\ArtikelController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,3 +40,9 @@ Route::get('actionlogout', [LoginController::class, 'actionlogout'])->name('acti
 //REGISTER
 Route::get('/register', [RegisterController::class, 'register'])->name('register');
 Route::post('/register', [RegisterController::class, 'actionregister'])->name('actionregister');
+
+
+// Route::get('/artikel', [ArtikelController::class, 'artikel'])->name('artikel');
+Route::get('/artikel', function () {
+    return view('artikel');
+});

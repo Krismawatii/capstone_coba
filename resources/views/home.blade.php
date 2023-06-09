@@ -13,10 +13,10 @@
 </head>
 
 <body id="home">
-    <script src=<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>></script>
+    <script src=<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>>
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow fixed-top">
 
-        <div class="container">
+        <div class="container mt-3">
 
             <a class="navbar-brand" href="#">DarahKu</a>
 
@@ -60,77 +60,82 @@
 
     <section class="jumbotron">
 
-        <div class="container">
+        <main class="container">
+            <div class="row">
 
-            <div class="row justify-content-center text-center">
-
-                <div class="col-mb-3">
-
-                    <img src="image/logo.png" alt="image1" width="300px" height="310px" align="right" />
-
+                <div class="col-md-8 py-5">
                     <h1 class="display-4 fw-bold" align="left"></br>Mencegah lebih baik daripada mengobati.</h1>
                     <h4 class="sub" align="left">Cegah Diabates, Kolesterol dan Asam Urat dengan Darahku</h4>
                     <p class="lead" align="justify"> Kini Darahku hadir sebagai aplikasi yang akan membantu anda
                         untuk mendiagnosis darah anda agar mengetahui penyakit seperti Diabates,
                         kolestrol serta Asam Urat.</p>
+                </div>
 
+                <div class="col-md-4 py-5">
+
+                    <img src="image/logo.png" alt="image1" width="490px" height="410px" />
                 </div>
 
             </div>
 
-        </div>
-
-        </div>
+        </main>
 
     </section>
 
-    <section id="sub" class="mb-5">
-        <!-- <div class="position-absolute"> -->
-        <div class="container-md mt-3">
-            <img src="image/image_2.png" alt="image2" width="490px" height="301px" align="left">
-            <h1 class="display-4 fw-bold" align="left">Mengapa Darahku Hadir?</h1>
-            <p class="lead" align="justify">Penyakit Diabetes, Kolestrol serta Asam Urat ialah penyakit yang rentan bagi tubuh kita. Dengan begitu hadir lah Darahku sebagai platform untuk kita semua guna untuk membantu dalam pengecekan
-                apakah tubuh kita terdapat resiko terkena penyakit Diabetes, Kolestrol serta Asam Urat atau tidak. tidak hanya itu,
-                pada platform kami juga memberikan solusi untuk mengurangi resiko terkena penyakit tersebut dengan tips dan cara pengobatan nya.
-                pengguna juga bisa menemukan informasi - informasi pada fitur yang sudah ada didalam DarahKu terkait dengan penyakit Diabetes, Kolesterol dan Asam Urat</p>
-        </div>
-        <!-- </div> -->
+    <section id="sub">
+        <main class="container">
+            <div class="row">
+                <div class="col-md-4 py-5">
+                    <img class="w-100" src="image/image_2.png" alt="image2" width="490px" height="301px" align="right">
+
+                </div>
+                <div class="col-md-8 py-5">
+                    <h1 class="display-4 fw-bold" align="left">Mengapa Darahku Hadir?</h1>
+                    <p class="lead" align="justify">Penyakit Diabetes, Kolestrol serta Asam Urat ialah penyakit yang rentan bagi tubuh kita. Dengan begitu hadir lah Darahku sebagai platform untuk kita semua guna untuk membantu dalam pengecekan
+                        apakah tubuh kita terdapat resiko terkena penyakit Diabetes, Kolestrol serta Asam Urat atau tidak. tidak hanya itu,
+                        pada platform kami juga memberikan solusi untuk mengurangi resiko terkena penyakit tersebut dengan tips dan cara pengobatan nya.
+                        pengguna juga bisa menemukan informasi - informasi pada fitur yang sudah ada didalam DarahKu terkait dengan penyakit Diabetes, Kolesterol dan Asam Urat</p>
+                </div>
+
+            </div>
+        </main>
     </section>
 
 
     <section id="layanan">
 
-        <div class="container" style="background-color: #787272;">
-            <h3 class="display-6 fw-bold" align="center">LAYANAN KAMI</h3>
+        <div class="container mt-3" style="background-color: #787272;">
+            <h3 class="display-6 fw-bold p-3" align="center">LAYANAN KAMI</h3>
 
-            <img src="image/image_3.png" alt="image3" align="right" width="519px" height="386px">
+            <img src="image/image_3.png" class="p-5 mb-5" alt="image3" align="right" width="519px" height="386px">
             <div class="row">
                 <div class="col" align="center">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card mb-3">
                         <img src="image/artikel.png" class="card-img-top" alt="artikel" width="100px">
                         <div class="card-body-mb-2">
                             <h5 class="card-tittle">Artikel Kesehatan</h5>
                             <p class="card-text">Artikel kesehatan yang kami tawarkan akan membantu anda untuk
                                 mendapatkan informasi seputar Diabetes, Kolestrol serta Asam Urat</p>
-                            <a href="#" class="btn btn-warning btn-sx">Baca Artikel</a>
+                            <a href="artikel" class="btn btn-danger btn-sx">Baca Artikel</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col" align="center">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="image/cek_darah.png" class="card-img-top" alt="cek">
 
                         <div class="card-body-mb-2">
                             <h5 class="card-tittle">Cek Darahmu</h5>
                             <p class="card-text">Cek Darahmu yuk, biar kamu mengetahui bagaimana tingkat kemungkinan
                                 anda terserang penyakit Diabetes, Kolestrol serta Asam Urat.</p>
-                            <a href="#" class="btn btn-warning btn-sx">Cek DarahMu</a>
+                            <a href="artikel" class="btn btn-danger btn-sx">Cek DarahMu</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
 
     <!-- Footer -->
